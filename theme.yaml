@@ -1,0 +1,58 @@
+# Subspace, a theme of the rpg-engine dashboard: amber telemetry and subspace cyan on deep-space console slate by night, crisp data-slate silver-blue by day.
+name: Subspace
+version: 1.0.0
+engine: "0.22"
+fonts:
+  - {family: Antonio, file: fonts/antonio/Antonio.ttf, weight: 100 700, license: fonts/antonio/OFL.txt}
+  - {family: Space Grotesk, file: fonts/space-grotesk/SpaceGrotesk.ttf, weight: 300 700, license: fonts/space-grotesk/OFL.txt}
+text-font: Space Grotesk
+title-font: Antonio
+story-font: Space Grotesk
+number-font: title
+corners: 14
+titles: {case: capitals, spacing: 0.06}
+cards: {inner-line: solid, ornament: images/delta.svg, corner: cut, texture: {picture: images/scanlines.svg}}
+buttons: {shape: pill}
+tabs: {shape: pill}
+shadows: soft
+papers: {documents: "#eef2fa", maps: "#e6ecf7"}
+portraits: {shape: rounded, frame: double}
+style: style.css
+light:
+  paper: "#e8ecf5"
+  panel: "#f7f9fd"
+  rule: "#c2cce0"
+  ink: "#10192e"
+  muted: "#4a5878"
+  accent: "#9b3e00"
+  gold: "#e69d24"
+  on-gold: "#10192e"
+  gold-ink: "#8a4b00"
+  ally: "#166b48"
+  low: "#b3261e"
+  card-edge: "#a9b7d2"
+  bar-edge: "#9b3e00"
+  page-texture: {picture: images/starfield-light.svg, fit: tile}
+  head-picture: {picture: images/bridge-light.svg, fit: cover}
+  card-grain: "#ccd6e7"
+  shadow: "#10192e"
+  portrait-frame: "#006b96"
+dark:
+  paper: "#070a14"
+  panel: "#0f1526"
+  rule: "#2a3656"
+  ink: "#edf2ff"
+  muted: "#9aa8c7"
+  accent: "#ff9c42"
+  gold: "#66d9ff"
+  on-gold: "#07101d"
+  ally: "#6ee7b7"
+  low: "#ff7a7a"
+  card-edge: "#3b4b75"
+  bar-edge: "#ff9c42"
+  title-glow: "#ff9c42"
+  page-texture: {picture: images/starfield-dark.svg, fit: tile}
+  head-picture: {picture: images/bridge-dark.svg, fit: cover}
+  card-grain: "#24345a"
+  shadow: "#000000"
+  portrait-frame: "#ff9c42"

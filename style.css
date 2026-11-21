@@ -1,0 +1,4 @@
+/* Subspace's own rules, over the page's: bridge-console left edge bar on telemetry cards. */
+:is(.card, .group, .band, .rolls-card, .turns-card, .settings-group, .scene-now, .quest-card, .note-card, .save-card) {
+    box-shadow: inset 4px 0 0 0 var(--accent), 0 0 0 1px var(--card-edge), var(--lift), var(--raise);
+}
